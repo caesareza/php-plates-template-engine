@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: #666;
+    background: #efefef;
+}
+
+ul{
+    display: flex;
+    border-bottom: 1px solid #666;
+}
+
+ul li, ul li a{
+    display: block;
+    padding: 10px;
+}
