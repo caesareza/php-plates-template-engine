@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    color: #666;
+    color: #000;
     background: #efefef;
 }
 
@@ -15,4 +15,13 @@ ul{
 ul li, ul li a{
     display: block;
     padding: 10px;
+}
+
+main{
+    margin: auto;
+    width: 1024px;
+}
+
+#content{
+    padding: 30px 0;
 }

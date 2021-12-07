@@ -1,5 +1,6 @@
 <?php
 require 'vendor/autoload.php';
-$templates = new League\Plates\Engine('layouts');
-echo $templates->render('artikel.view');
+$templates = new League\Plates\Engine('views');
+
+echo $templates->render('site/artikel.view');
 ?>
